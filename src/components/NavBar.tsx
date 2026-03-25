@@ -10,6 +10,9 @@ export default function NavBar() {
         <>
             <ul>
                 <li>
+                    <Link to='/'>Home</Link>
+                </li>
+                <li>
                     <Link to='/about'>{t('navbar.about')}</Link>
                 </li>
                 <li>
