@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { HOMESECTIONS } from "../constants/services.ts"
 import LanguageSwitcher from "../components/LanguageSwitcher.tsx";
+import ReviewsList from "../components/Reviews.tsx";
 
 export default function HomePage() {
         const { t } = useTranslation();
@@ -34,7 +35,7 @@ export default function HomePage() {
             ))}
             <section id="reviews">
                 <div>
-
+                    <ReviewsList/>
                 </div>
             </section>
         </>

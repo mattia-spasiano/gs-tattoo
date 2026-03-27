@@ -8,3 +8,10 @@ figure{
 .sec-img{
     width: 100%;
 }
+
+.reviews{
+    background-color: transparent;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
