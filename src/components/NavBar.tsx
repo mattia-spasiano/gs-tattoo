@@ -6,27 +6,29 @@ export default function NavBar() {
 
     const { t } = useTranslation();
 
-    return(
+    return (
         <>
-            <ul>
-                <li>
-                    <Link to='/'>Home</Link>
-                </li>
-                <li>
-                    <Link to='/about'>{t('navbar.about')}</Link>
-                </li>
-                <li>
-                    <Link to='/services'>{t('navbar.services')}</Link>
-                </li>
-                <li>
-                    <Link to='/art-gallery'>{t('navbar.gallery')}</Link>
-                </li>
-                <li>
-                    <Link to='/contact-us'>{t('navbar.contacts')}</Link>
-                </li>
-            </ul>
-            <div>
-                <LanguageSwitcher />
+            <div className="navbar flex w-full h-10 bg-[#444444] opacity-75 sticky">
+                <ul className="nav-content  flex w-150 mx-auto my-auto justify-between font-thin text-sm">
+                    <li className="w-35 text-center hover:font-bold">
+                        <Link to='/'>HOME</Link>
+                    </li>
+                    <li className="w-35 text-center hover:font-bold">
+                        <Link to='/about'>{t('navbar.about')}</Link>
+                    </li>
+                    <li className="w-35 text-center hover:font-bold">
+                        <Link to='/services'>{t('navbar.services')}</Link>
+                    </li>
+                    <li className="w-35 text-center hover:font-bold">
+                        <Link to='/art-gallery'>{t('navbar.gallery')}</Link>
+                    </li>
+                    <li className="w-35 text-center hover:font-bold">
+                        <Link to='/contact-us'>{t('navbar.contacts')}</Link>
+                    </li>
+                    <li className="w-fit hover:font-bold">
+                        <LanguageSwitcher />
+                    </li>
+                </ul>
             </div>
         </>
     )

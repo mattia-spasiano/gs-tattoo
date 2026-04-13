@@ -31,6 +31,7 @@ i18n
                         art: "If you're curious to see my work, feel free to check out my art gallery, where you'll find all my best pieces."
                     },
                     reviews: {
+                        source: "All reviews are taken from Google Reviews, check them out!",
                         review1: "I got a tattoo at GreatSkin and was extremely satisfied with the experience. The result was exactly what I had envisioned. Even though I don't speak fluent Spanish, everything was explained to me clearly and with a lot of patience. The artist took my wishes seriously and showed real care and understanding. I can definitely recommend this Studio.",
                         review2: "Very nice and good work! Very happy about it!!",
                         review3: "The tattoo artist is definitely skilled and professional. I first went to him to have a poorly done tattoo fixed, and he really earned my trust. Since then, I've gotten four more tattoos, all of which were done excellently. I highly recommend this place to anyone looking to get a tattoo.",
@@ -57,6 +58,7 @@ i18n
                         art: "Se sei curioso di vedere i miei lavori, sentiti libero di vedere la mia galleria d'arte, dove sono presenti tutti i miei lavori migliori."
                     },
                     reviews: {
+                        source: "Tutte le recensioni sono gestite da Google, clicca qui per altre informazioni!",
                         review1: "Mi sono fatta un tatuaggio da GreatSkin e sono rimasta estremamente soddisfatta dell'esperienza. Il risultato è stato esattamente come me lo ero immaginato. Anche se non parlo spagnolo fluentemente, mi è stato spiegato tutto in modo chiaro e con molta pazienza. Il tatuatore ha preso sul serio i miei desideri e ha dimostrato grande attenzione e comprensione. Consiglio vivamente questo studio.",
                         review2: "Davvero bello e ben fatto! Ne sono davvero contento!!",
                         review3: "Il tatuatore è decisamente competente e professionale, ho iniziato con lui chiedendogli di aggiustare un disegno di un lavoro fatto male e si è conquistato decisamente la mia fiducia, da lì in poi ho fatto altri 4 tatuaggi, tutti eseguiti in maniera eccellente, è un posto che consiglio vivamente a chi si vuole tatuare.",
@@ -83,6 +85,7 @@ i18n
                         art: "Si tienes curiosidad por ver mis obras, no dudes en echar un vistazo a mi galería de arte, donde encontrarás mis mejores trabajos."
                     },
                     reviews: {
+                        source: "Todas las reseñas las gestiona Google. ¡Haz clic aquí para obtener más información!",
                         review1: "Me hice un tatuaje en GreatSkin y quedé muy satisfecha con la experiencia. El resultado fue exactamente como lo había imaginado. Aunque no hablo español con fluidez, me lo explicaron todo con claridad y mucha paciencia. El tatuador se tomó muy en serio mis deseos y demostró mucha atención y comprensión. Recomiendo encarecidamente este estudio.",
                         review2: "¡Es realmente bonito y está muy bien hecho! ¡Estoy muy contento con él!",
                         review3: "El tatuador es muy competente y profesional; empecé acudiendo a él para que me retocara un tatuaje que me habían hecho mal y se ganó mi confianza por completo; desde entonces me he hecho otros cuatro tatuajes, todos ellos realizados de forma excelente; es un sitio que recomiendo encarecidamente a cualquiera que quiera hacerse un tatuaje.",

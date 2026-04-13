@@ -9,9 +9,9 @@ export default function LanguageSwitcher() {
     }
 
     const lngs: Lngs = {
-        en: { nativeName: 'English'},
-        es: { nativeName: 'Español'},
-        it: { nativeName: 'Italiano'}
+        en: { nativeName: 'EN'},
+        es: { nativeName: 'ES'},
+        it: { nativeName: 'IT'}
     };
 
     const { i18n } = useTranslation();
@@ -20,7 +20,7 @@ export default function LanguageSwitcher() {
         <>
             <select name="" id="" value={i18n.resolvedLanguage} onChange={(e) => i18n.changeLanguage(e.target.value)}>
                 {Object.keys(lngs).map((lng) => (
-                    <option key={lng} value={lng} style={{fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal'}} typeof="submit">
+                    <option className="bg-black" key={lng} value={lng} style={{fontWeight: i18n.resolvedLanguage === lng ? 'bold' : 'normal'}} typeof="submit">
                         {lngs[lng].nativeName}
                     </option>
                 ))}
