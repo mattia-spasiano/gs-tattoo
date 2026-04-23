@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { HOMESECTIONS } from "../constants/services.ts"
+import { SERVICES } from "../constants/services.ts"
 import LanguageSwitcher from "../components/LanguageSwitcher.tsx";
 import ReviewsList from "../components/Reviews.tsx";
 
@@ -24,7 +24,7 @@ export default function HomePage() {
                     </div>
                 </div>
             </section>
-            {HOMESECTIONS.map((service, index) => (
+            {SERVICES.map((service, index) => (
                 <section key={service.id} id={service.name} className="service mbe-10">
                     <div className="sec-img bg-position-[center_bottom_-400px] bg-size-[1600px]" style={{ backgroundImage: `url(${service.img})` }}>
                         <div className="bg-black w-full h-full opacity-80 relative mb-auto">
@@ -34,7 +34,6 @@ export default function HomePage() {
                                 <h2 className="text-5xl font-semibold underline decoration-2">{service.name}</h2>
                             </div>
                         </div>
-
                     </div>
                 </section>
             ))}

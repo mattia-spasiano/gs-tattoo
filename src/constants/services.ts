@@ -1,6 +1,13 @@
 import tattooImg from '../assets/img-7d5ea4e332f9568a8d2715c301d23c0e.jpg';
 
-export const HOMESECTIONS = [
+export interface Service {
+    name: string;
+    id: number;
+    description: string;
+    img: string;
+}
+
+export const SERVICES = [
     {
         name: 'TATTOO',
         id: 1,
