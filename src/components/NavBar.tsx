@@ -8,7 +8,7 @@ export default function NavBar() {
 
     return (
         <>
-            <div className="navbar flex w-full h-10 bg-white/15 backdrop-filter backdrop-blur-md fixed top-0">
+            <div className="navbar flex w-full h-7 bg-black/15 backdrop-filter backdrop-blur-md fixed top-0 z-1000">
                 <ul className="nav-content  flex w-150 mx-auto my-auto justify-between font-thin text-sm">
                     <li className="w-35 text-center hover:font-bold">
                         <Link to='/'>HOME</Link>

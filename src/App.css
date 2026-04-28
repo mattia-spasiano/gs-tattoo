@@ -13,7 +13,6 @@ figure {
 
 .sec-img {
     width: 100vw;
-    height: 500px;
 }
 
 #reviews {
@@ -64,9 +63,3 @@ figure {
 .marquee-track:hover {
     animation-play-state: paused;
 }
-
-/* .rev-shadows {
-    background: #0E0E0E;
-    background: linear-gradient(90deg,rgba(14, 14, 14, 1) 64%, rgba(20, 16, 0, 0) 100%);
-    width: 75vw;
-} */

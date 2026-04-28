@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
-import { SERVICES } from "../constants/services.ts"
-import LanguageSwitcher from "../components/LanguageSwitcher.tsx";
+import { SERVICES } from "../constants/services.ts";
+import ServicesContent from "../components/ServicesContent.tsx";
 import ReviewsList from "../components/Reviews.tsx";
 
 export default function HomePage() {
@@ -9,9 +9,8 @@ export default function HomePage() {
 
     return (
         <>
-            <LanguageSwitcher />
-            <section id="hero" className="mb-5">
-                <div style={{ backgroundColor: `blue`}} className="w-full h-screen relative">
+            <section id="hero" className="mb-5 mbs-7">
+                <div style={{ backgroundColor: `blue` }} className="w-full h-screen relative">
                     <div className="w-full text-center absolute top-90">
                         <p>{t('hero.description')}</p>
                         <h2>-{t('hero.author')}</h2>
@@ -25,18 +24,11 @@ export default function HomePage() {
                 </div>
             </section>
             {SERVICES.map((service, index) => (
-                <section key={service.id} id={service.name} className="service mbe-10">
-                    <div className="sec-img bg-position-[center_bottom_-400px] bg-size-[1600px]" style={{ backgroundImage: `url(${service.img})` }}>
-                        <div className="bg-black w-full h-full opacity-80 relative mb-auto">
-                            <div className={`absolute w-125 mbs-25 ${index % 2 === 0 ? ' right-30 text-right' : 'left-30'}`}>
-                                <p className="text-2xl font-thin mbe-20">{t(service.description)}</p>
-                                {/* Reminder: shouldn't use a string type in the parenthesis, as the string is present inside the services.ts file. This applies every time we use a .map() method. */}
-                                <h2 className="text-5xl font-semibold underline decoration-2">{service.name}</h2>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                <ServicesContent key={service.id}
+                service={service}
+                isEven={index % 2 === 0} />
             ))}
+            { /* Passiamo isEven per fare in modo di ottenere le prop che ci servono all'interno del componente, spiegando anche in che modo utilizzare la prop da aggiungere come booleano all'interno della nostra interface. */}
             <section id="reviews" className="flex relative bg-[#0E0E0E] h-100 mx-auto overflow-hidden">
                 <ReviewsList />
             </section>

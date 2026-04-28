@@ -8,19 +8,16 @@ import Services from './pages/ServicesPage';
 import NotFoundPage from './pages/NotFound';
 import MainLayout from './layout/MainLayout';
 import MinimalLayout from './layout/MinimalLayout';
-import HomeLayout from './layout/HomeLayout';
 
 function App() {
 
   return (
     <>
       <Routes>
-        <Route element={<HomeLayout />}>
-          <Route
+        <Route element={<MainLayout />}>
+        <Route
             path='/'
             element={<HomePage/>}/>
-        </Route>
-        <Route element={<MainLayout />}>
           <Route
             path='/about'
             element={<About />} />
