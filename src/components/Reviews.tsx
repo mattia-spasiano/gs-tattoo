@@ -13,7 +13,7 @@ export default function ReviewsList() {
                     <div className="rating-overview ms-20 my-auto w-75">
                         <p className="font-thin text-xs">*{t('reviews.source')}</p>
                         <p className="font-bold text-5xl">REVIEW <br />100%</p>
-                        <p className="text-base">Our clients show full satisfaction bla bla bla bla blabla bla bla blabla bla bla blabla bla bla bla</p>
+                        <p className="text-base">{t('reviews.overall')}</p>
                     </div>
                         <div className="rating-progress bg-[#444444] w-[1px] h-75 my-auto mx-0"></div>
                 </div>

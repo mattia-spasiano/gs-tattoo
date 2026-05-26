@@ -8,15 +8,20 @@ import Services from './pages/ServicesPage';
 import NotFoundPage from './pages/NotFound';
 import MainLayout from './layout/MainLayout';
 import MinimalLayout from './layout/MinimalLayout';
+import ComingSoon from './pages/ComingSoon';
 
 function App() {
 
   return (
     <>
       <Routes>
-        <Route element={<MainLayout />}>
         <Route
-            path='/'
+          path='/'
+          element={<ComingSoon/>}/>
+        <Route element={<MainLayout />}>
+        
+        <Route
+            path='/home'
             element={<HomePage/>}/>
           <Route
             path='/about'
@@ -28,7 +33,7 @@ function App() {
             path='/services'
             element={<Services />} />
           <Route
-            path='/gallery'
+            path='/art-gallery'
             element={<ArtGallery />} />
         </Route>
         <Route element={<MinimalLayout />}>

@@ -25,12 +25,11 @@ export default function ServicesContent({ service, isEven }: ServicesContentProp
                             </div>
                             <section className={`overflow-hidden transition-all duration-300 ${isOpen ? 'max-h-[200px] opacity-100' : 'max-h-0'}`}>
                                 <p className="text-lg">{t(service.description)}</p>
-                                <button className="bg-white text-black font-bold py-2 px-3 rounded-lg mbs-5"><Link to='/contacts'>{t('GET IN TOUCH')}</Link></button>
+                                <button className="bg-white text-black font-bold py-2 px-3 rounded-lg mbs-5"><Link to='/contacts'>{t('homepage.btn')}</Link></button>
                             </section>
                         </div>
                     </div>
                 </div>
-                
             </section>
         </>
     )

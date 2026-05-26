@@ -11,14 +11,14 @@ export default function HomePage() {
         <>
             <section id="hero" className="mb-5 mbs-7">
                 <div style={{ backgroundColor: `blue` }} className="w-full h-screen relative">
-                    <div className="w-full text-center absolute top-90">
+                    <div className="w-full text-center absolute top-70">
                         <p>{t('hero.description')}</p>
                         <h2>-{t('hero.author')}</h2>
                     </div>
-                    <figure className="absolute w-full top-125">
+                    <figure className="absolute w-full lg:top-100 md:top-50">
                         <img src="https://placehold.co/250x150" alt="" className="logo flex mx-auto" />
                     </figure>
-                    <div className="name absolute w-full top-110 text-center">
+                    <div className="name absolute w-full top-85 text-center">
                         <p className="font-semibold text-4xl underline decoration-2"><Link to="/about">GIUSEPPE SPASIANO</Link></p>
                     </div>
                 </div>

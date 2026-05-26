@@ -27,11 +27,13 @@ i18n
                     },
                     homepage: {
                         tattoo: "Realism, anime, stylized, or fine art—whatever your preference, I’ll guide you through the process of bringing your idea to life, from designing the tattoo to inking it onto your skin, with full support throughout the healing process.",
-                        piercings: "Our piercing service uses top-of-the-line products and techniques to minimize pain and ensure the best possible healing.",
-                        art: "If you're curious to see my work, feel free to check out my art gallery, where you'll find all my best pieces."
+                        piercings: "Our professional piercing service uses only top-of-the-line products and the latest techniques to minimize discomfort and pain, ensuring the safest and best possible healing experience for you.",
+                        art: "If you're curious to see my work, feel free to check out my art gallery, where you'll find all my best pieces.",
+                        btn: "GET IN TOUCH"
                     },
                     reviews: {
-                        source: "All reviews are from Google Reviews, check them out!",
+                        overall: "We achieve 100% client satisfaction through quality work, meticulous attention to detail, and exceptional post-treatment support and care.",
+                        source: "All reviews are from Google Reviews and totally verifiable, check them out!",
                         review1: "I got a tattoo at GreatSkin and was extremely satisfied with the experience. The result was exactly what I had envisioned. Even though I don't speak fluent Spanish, everything was explained to me clearly and with a lot of patience. The artist took my wishes seriously and showed real care and understanding. I can definitely recommend this Studio.",
                         review2: "Very nice and good work! Very happy about it!!",
                         review3: "The tattoo artist is definitely skilled and professional. I first went to him to have a poorly done tattoo fixed, and he really earned my trust. Since then, I've gotten four more tattoos, all of which were done excellently. I highly recommend this place to anyone looking to get a tattoo.",
@@ -55,9 +57,11 @@ i18n
                     homepage: {
                         tattoo: "Realismo, anime, stilizzato o fineart, qualsiasi sia la tua esigenza ti accompagnerò nella realizzazione della tua idea dalla progettazione del tatuaggio fino alla realizzazione sulla tua pelle, con completa assistenza sulla guarigione.",
                         piercings: "Il nostro servizio per la realizzazione di piercings include il top di gamma dei prodotti e procedure per minimizzare il dolore ed avere la miglior guarigione possibile.",
-                        art: "Se sei curioso di vedere i miei lavori, sentiti libero di vedere la mia galleria d'arte, dove sono presenti tutti i miei lavori migliori."
+                        art: "Se sei curioso di vedere i miei lavori, sentiti libero di vedere la mia galleria d'arte, dove sono presenti tutti i miei lavori migliori.",
+                        btn: "CONTATTAMI"
                     },
                     reviews: {
+                        overall: "Raggiungiamo il 100% di soddisfazione dei clienti attraverso lavori di qualità, attenzione ai dettagli e un supporto eccezionale post-trattamento",
                         source: "Tutte le recensioni sono presenti su Google Reviews, clicca qui per altre informazioni!",
                         review1: "Mi sono fatta un tatuaggio da GreatSkin e sono rimasta estremamente soddisfatta dell'esperienza. Il risultato è stato esattamente come me lo ero immaginato. Anche se non parlo spagnolo fluentemente, mi è stato spiegato tutto in modo chiaro e con molta pazienza. Il tatuatore ha preso sul serio i miei desideri e ha dimostrato grande attenzione e comprensione. Consiglio vivamente questo studio.",
                         review2: "Davvero bello e ben fatto! Ne sono davvero contento!!",
@@ -80,11 +84,13 @@ i18n
                         author: 'Johnny Depp'
                     },
                     homepage: {
-                        tattoo: "Realismo, anime, estilo estilizado o fine art: sean cuales sean tus necesidades, te acompañaré en la materialización de tu idea, desde el diseño del tatuaje hasta su realización en tu piel, con un seguimiento completo durante el proceso de cicatrización.",
+                        tattoo: "Realismo, anime, estilizado o fine art: te acompañaré en la materialización de tu idea, desde el diseño hasta su realización en tu piel, con seguimiento completo durante la cicatrización.",
                         piercings: "Nuestro servicio de perforación corporal incluye productos y procedimientos de primera calidad para minimizar el dolor y garantizar la mejor cicatrización posible.",
-                        art: "Si tienes curiosidad por ver mis obras, no dudes en echar un vistazo a mi galería de arte, donde encontrarás mis mejores trabajos."
+                        art: "Si tienes curiosidad por ver mis obras, no dudes en echar un vistazo a mi galería de arte, donde encontrarás mis mejores trabajos.",
+                        btn: "CONTACTAR"
                     },
                     reviews: {
+                        overall: "Alcanzamos el 100% de satisfacción del cliente a través de trabajo de calidad, atención al detalle y un soporte excepcional post-tratamiento",
                         source: "Todas las reseñas las gestiona Google Reviews. ¡Haz clic aquí para obtener más información!",
                         review1: "Me hice un tatuaje en GreatSkin y quedé muy satisfecha con la experiencia. El resultado fue exactamente como lo había imaginado. Aunque no hablo español con fluidez, me lo explicaron todo con claridad y mucha paciencia. El tatuador se tomó muy en serio mis deseos y demostró mucha atención y comprensión. Recomiendo encarecidamente este estudio.",
                         review2: "¡Es realmente bonito y está muy bien hecho! ¡Estoy muy contento con él!",
